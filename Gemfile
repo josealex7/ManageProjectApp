@@ -44,6 +44,25 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'devise', '~> 4.2'
+
+# Use jquery as the JavaScript librar
+gem 'jquery-rails'
+
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+
+gem 'devise-bootstrap-views', '~> 1.1'
+
+gem "twitter-bootstrap-rails"
+
+# Use jquery-ui for pretty UI
+gem 'jquery-ui-rails'
+
+# Use Sass to process CSS
+gem "sassc-rails"
+
+gem "font-awesome-rails"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -77,3 +96,5 @@ end
 group :production do
   gem "rails_12factor"
 end
+
+gem 'mailjet'
